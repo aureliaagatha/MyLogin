@@ -34,6 +34,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btLogin = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtUser
@@ -80,7 +81,7 @@
             // 
             // btLogin
             // 
-            this.btLogin.Location = new System.Drawing.Point(109, 170);
+            this.btLogin.Location = new System.Drawing.Point(61, 170);
             this.btLogin.Name = "btLogin";
             this.btLogin.Size = new System.Drawing.Size(75, 23);
             this.btLogin.TabIndex = 5;
@@ -88,18 +89,28 @@
             this.btLogin.UseVisualStyleBackColor = true;
             this.btLogin.Click += new System.EventHandler(this.btLogin_Click);
             // 
-            // Form1
+            // btnCancel
+            // 
+            this.btnCancel.Location = new System.Drawing.Point(151, 170);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.TabIndex = 6;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            // 
+            // FormUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(286, 232);
+            this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btLogin);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.txtUser);
-            this.Name = "Form1";
+            this.Name = "FormUser";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -114,6 +125,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btLogin;
+        private System.Windows.Forms.Button btnCancel;
     }
 }
 
